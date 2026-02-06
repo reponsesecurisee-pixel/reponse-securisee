@@ -1,3 +1,4 @@
+console.log('VERSION ADMIN TEST');
 import { useState, useEffect } from 'react';
 
 /* =========================
