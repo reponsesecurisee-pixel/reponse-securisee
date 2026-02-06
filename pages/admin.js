@@ -6,6 +6,8 @@ export default function Admin() {
   const [description, setDescription] = useState('');
 
   useEffect(() => {
+    localStorage.setItem('is_admin', 'true');
+
     setTitle(localStorage.getItem('site_title') || '');
     setSubtitle(localStorage.getItem('site_subtitle') || '');
     setDescription(localStorage.getItem('site_description') || '');
